@@ -1,5 +1,4 @@
 node {
-    def app
 
     stage('Clone Repository')
     {
@@ -18,7 +17,4 @@ node {
         sh "php -S localhost:5000"
        
     }
-
-
-
 }
